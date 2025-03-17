@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 
 header {
@@ -29,6 +30,7 @@ header {
     border: 2px solid #ddd;
     border-radius: 4px;
 }
+
 /* Add to your existing styles.css file */
 
 /* Navigation styling */
@@ -172,4 +174,20 @@ footer {
     text-align: center;
     width: 100%;
     margin-top: 2rem;
+}
+
+/* Contact section styling */
+#contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+#contact i {
+    margin-right: 10px;
+    color: #333;
 }
